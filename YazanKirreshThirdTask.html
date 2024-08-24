@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<style>
+
+* {
+  width: 1000px;
+  text-align: center;
+}
+header {
+  background-color: #fea685;
+}
+nav {
+  
+  background-color: #fea685;
+  
+}
+article{
+  display: flex;
+  background-color: #34c9ff;
+  border: 1px solid black;
+}
+
+section {
+  display: flex;
+  background-color: #a2e1fd;
+  border: 1px solid black;
+}
+
+aside {
+  background-color: gray;
+  display: flex;
+  border: 1px solid black;
+}
+footer {
+  background-color: #fea685;
+}
+
+div {
+  border: 0px solid black;
+
+}
+
+span{
+	display: inline-block;
+	background-color: white;
+}
+
+</style>
+
+<html>
+	<body style= "justify-content: space-around; height: 1000px;">
+		<div>
+			<header>
+				header
+			</header>
+			<nav style="flex-wrap: nowrap;">
+				<div style="display: flex; justify-content: flex-end;">
+					<span style="width: 100px; border: 1px solid black;">1</span>
+					<span style="width: 100px; border: 1px solid black">2</span>
+					<span style="width: 100px; border: 1px solid black">3</span>
+				</div>
+			</nav>
+			<div style= "display: flex; justify-content: space-between; flex-direction: raw;display: flex;">
+				<article style="flex-direction: raw; width: 400px; justify-content: space-between;">
+					<section>
+					section 1
+					</section>
+					<section>
+					section 2
+					</section> 
+				</article>
+				<aside style="width: 400px; text-align: center;">
+					aside
+				</aside>
+			</div>
+			<footer>
+				footer
+			</footer>
+		</div>
+	</body>
+</html>
+
+
